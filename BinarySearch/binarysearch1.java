@@ -12,26 +12,26 @@ class binarysearch{
             System.out.println(descendBinary(arr1,target));
         }
     }
-    static int ascendBinary(int[] a, int target){
-        int start=0; int end=a.length-1;
+    static int ascendBinary(int[] nums, int target){
+        int start=0; int end=nums.length-1;
         while(start<=end){
             int mid = start+(end-start)/2;
-            if(target < a[mid])
+            if(target < nums[mid])
                 end = mid - 1;
-            else if(target > a[mid])
+            else if(target > nums[mid])
                 start = mid + 1;
             else 
                 return mid;
         }
         return -1;
     }
-    static int descendBinary(int[] a, int target){
-        int start=0; int end=a.length-1;
+    static int descendBinary(int[] nums, int target){
+        int start=0; int end=nums.length-1;
         while(start<=end){
             int mid = start+(end-start)/2;
-            if(target < a[mid])
+            if(target < nums[mid])
                 start = mid + 1;
-            else if(target > a[mid])
+            else if(target > nums[mid])
                 end = mid - 1;
             else 
                 return mid;
