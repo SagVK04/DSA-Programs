@@ -15,5 +15,6 @@ public class Main {
         list.display();
         System.out.println("Removed from index item is: "+list.deleteIndex(3));
         list.display();
+        list.reverse();
     }
 }

@@ -1,5 +1,3 @@
-import java.util.SortedMap;
-
 public class CustomLinkedList {
     private int size;
     public CustomLinkedList(){
@@ -30,6 +28,23 @@ public class CustomLinkedList {
         while (temp!=null) {
             System.out.print(temp.val + "->");
             temp = temp.next;
+        }
+        System.out.print("null");
+        System.out.println();
+        System.out.println("Size of linked list: "+size);
+    }
+    public void reverse(){
+        Node temp=head; Node prev=null; Node after=null;
+        while (temp!=null){
+            after=temp.next; //Preserve the rest linked list
+            temp.next=prev; //Reverse the link
+            prev=temp;//Move previous
+            temp=after;//Move temp
+        }
+        System.out.print("Reverse is: ");
+        while (prev!=null){
+            System.out.print(prev.val + "->");
+            prev = prev.next;
         }
         System.out.print("null");
         System.out.println();
