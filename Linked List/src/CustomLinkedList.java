@@ -50,6 +50,18 @@ public class CustomLinkedList {
         System.out.println();
         System.out.println("Size of linked list: "+size);
     }
+    public void insertRec(int val,int index){
+        head = insertRec(val,index,head);
+    }
+    private Node insertRec(int val,int index,Node node){
+        if(index==0){
+            Node temp = new Node(val,node);
+            size+=1;
+            return temp;
+        }
+        node.next = insertRec(val,index-1,node.next);
+        return node;
+    }
     public void insert(int val){
         if(tail==null) {
             insertAtFirst(val);
@@ -122,5 +134,18 @@ public class CustomLinkedList {
             System.out.println("Deleting index "+index+" ...");
         }
         return removed;
+    }
+    public Node deleteDuplicates() {
+        Node node = head;
+        while (node.next!=null){
+            if(node.val==node.next.val) {
+                node.next = node.next.next;
+                size -= 1;
+            }
+            else
+                node=node.next;
+        }
+        tail=node; tail.next=null;
+        return  head;
     }
 }
