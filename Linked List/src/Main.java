@@ -1,6 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
-        /*list.insertAtFirst(5);
+    public static void main(String[] args) throws LLException {
+        CustomLinkedList list = new CustomLinkedList();
+        list.insertAtFirst(5);
         list.insertAtFirst(3);
         list.insert(9);
         list.insert(8);
@@ -16,8 +17,8 @@ public class Main {
         list.display();
         System.out.println("Removed from index item is: "+list.deleteIndex(3));
         list.display();
-        list.reverse();*/
-        CustomLinkedList first = new CustomLinkedList();
+        list.reverseRec();
+        /*CustomLinkedList first = new CustomLinkedList();
         CustomLinkedList second = new CustomLinkedList();
 
         first.insert(1); first.insert(3); first.insert(5);
@@ -25,6 +26,6 @@ public class Main {
         second.insert(1); second.insert(2); second.insert(9); second.insert(14);
 
         CustomLinkedList res = CustomLinkedList.merge(first,second);
-        res.display();
+        res.display();*/
     }
 }

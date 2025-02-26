@@ -49,7 +49,7 @@ public class CustomLinkedList {
         while (temp != null) {
             after = temp.next; //Preserve the rest linked list
             temp.next = prev; //Reverse the link
-            prev = temp;//Move previous
+            prev = temp;//Move prev
             temp = after;//Move temp
         }
         System.out.print("Reverse is: ");
@@ -60,6 +60,21 @@ public class CustomLinkedList {
         System.out.print("null");
         System.out.println();
         System.out.println("Size of linked list: " + size);
+    }
+
+    public void reverseRec(){
+        newreverse(head);
+        display();
+    }
+    private void newreverse(Node node){
+        if(node==tail) {
+            head = tail;
+            return;
+        }
+        newreverse(node.next);
+        tail.next=node;
+        tail=node;
+        tail.next=null;
     }
 
     public void insertRec(int val, int index) {
