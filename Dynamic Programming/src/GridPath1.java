@@ -2,11 +2,15 @@ import java.util.Arrays;
 
 public class GridPath1 {
     public static void main(String[] args) {
-        int[][] grid = new int[4][4];
+        int[][] grid = {
+                {10,8,2},
+                {10,5,100},
+                {1,1,7}
+        };
         System.out.println("Grid is: ");
         for (int[] a: grid)
             System.out.println(Arrays.toString(a));
-        System.out.println("Paths from (0,0) to reach (3,3): "+find_path(grid));
+        System.out.println("Paths from (0,0) to reach (2,2): "+find_path(grid));
     }
     private static int find_path(int[][] grid){
         int row = grid.length; int col = grid[0].length;
