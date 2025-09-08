@@ -3,31 +3,36 @@ import java.util.Arrays;
 public class LongestCommomSubSeq {
     public static void main(String[] args) {
         String s1 = "acd"; String s2 = "ced";
-        System.out.println("Length of longest common subsequence: "+findLongestSubSeq(s1,s2)+" unit(s)");
+        String res = findLongestSubSeq(s1,s2);
+        System.out.println("Longest common subsequence: "+res);
+        System.out.println("Length is: "+res.length());
     }
 
-    private static int findLongestSubSeq(String s1, String s2) {
+    private static String findLongestSubSeq(String s1, String s2) {
         int[][] dp = new int[s1.length()+1][s2.length()+1];
         for (int[] a : dp)
             Arrays.fill(a, -1);
         return findLength3(s1, s2, s1.length(), s2.length());
     }
 
-    private static int findLength3(String s1, String s2, int i1, int i2){
+    private static String findLength3(String s1, String s2, int i1, int i2){
         int[] prev = new int[s2.length()+1]; int[] cur = new int[s2.length()+1];
+        StringBuilder ans = new StringBuilder();
         for(int j=0;j<=i2;j++)
             prev[j] = 0;
         for(int i=1;i<=i1;i++){
             cur[i] = 0;
             for(int j=1;j<=i2;j++){
-                if(s1.charAt(i-1) == s2.charAt(j-1))
-                    cur[j] = 1 + prev[j-1];
+                if(s1.charAt(i-1) == s2.charAt(j-1)) {
+                    ans.append(s1.charAt(i-1));
+                    cur[j] = 1 + prev[j - 1];
+                }
                 else
                     cur[j] = Math.max(cur[j-1],prev[j]);
             }
             prev = cur;
         }
-        return prev[i2];
+        return ans.toString();
     }
 
     private static int findLength2(String s1, String s2, int i1, int i2){
