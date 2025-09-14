@@ -28,7 +28,7 @@ public class BuyandSellStocks_2 {
         }
         return dp[ind][canBuy] = profit;
     }
-    public static int findProfit1(int[] prices, int length,int canBuy){
+    public static int findProfit1(int[] prices, int length){
         int[][] dp = new int[length+1][2];
         dp[length][0] = 0; dp[length][1] = 0;
         for(int ind=length-1;ind>=0;ind--){

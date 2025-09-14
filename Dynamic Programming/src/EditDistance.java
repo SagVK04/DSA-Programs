@@ -1,13 +1,4 @@
-import java.util.Arrays;
-
 public class EditDistance {
-    public int minDistance(String s1, String s2) {
-        int n = s1.length(); int m = s2.length();
-        int[][] dp = new int[n][m];
-        for(int[] a: dp)
-            Arrays.fill(a,-1);
-        return f_count1(s1,s2,n-1,m-1,dp);
-    }
     public int f_count1(String s1, String s2, int i, int j, int[][] dp){
         if(i < 0) return j+1;
         if(j < 0) return i+1;
