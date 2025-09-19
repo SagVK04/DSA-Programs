@@ -23,10 +23,11 @@ public class MCM {
         return dp[i][j] = min;
     }
     private static int f_1(int[] dim,int[][] dp) {
-        int min = 99999;
-        for(int i=dim.length; i>0; i--){
-            for(int j=dim.length-1;j>=0; j--){
-                for(int k=j-1;k>=i;k--){
+        for(int i=1;i<dim.length;i++)   dp[i][i] = 0;
+        for(int i=dim.length-1; i>=1; i--){
+            for(int j=i+1;j<dim.length; j++){
+                int min = 99999;
+                for(int k=i;k<j;k++){
                     int steps = dim[i-1]*dim[k]*dim[j] + dp[i][k] + dp[k+1][j];
                     min = Math.min(min, steps);
                     dp[i][j] = min;
