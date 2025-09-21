@@ -15,8 +15,8 @@ public class BurstBallons {
         intarray.addFirst(1);
         intarray.addLast(1);
         int[][] dp = new int[n+1][n+1];
-        for(int[] b:dp)
-            Arrays.fill(b,-1);
+        for(int[] i:dp)
+            Arrays.fill(i,-1);
         return f1(intarray,1,n,dp);
     }
 
