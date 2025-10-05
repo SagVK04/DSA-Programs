@@ -41,6 +41,7 @@
     "Application.Q5.executor": "Run",
     "Application.Q6.executor": "Run",
     "Application.Q7.executor": "Run",
+    "Application.Q8.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
