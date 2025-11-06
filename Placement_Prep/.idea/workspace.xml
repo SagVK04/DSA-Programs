@@ -36,6 +36,7 @@
   "keyToString": {
     "Application.CV2.executor": "Run",
     "Application.Q1.executor": "Run",
+    "Application.Q10.executor": "Run",
     "Application.Q2.executor": "Run",
     "Application.Q3.executor": "Run",
     "Application.Q4.executor": "Run",
@@ -43,6 +44,7 @@
     "Application.Q6.executor": "Run",
     "Application.Q7.executor": "Run",
     "Application.Q8.executor": "Run",
+    "Application.Q9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
