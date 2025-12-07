@@ -15,12 +15,12 @@ public class SplitArrayLargestSum {
     }
     public int countSt(int[] nums, int max_page){
         int student = 1; int page_allotment=0;
-        for(int i=0; i<nums.length; i++){
-            if(page_allotment+nums[i] <= max_page)
-                page_allotment += nums[i];
-            else{
-                student ++;
-                page_allotment=nums[i];
+        for (int num : nums) {
+            if (page_allotment + num <= max_page)
+                page_allotment += num;
+            else {
+                student++;
+                page_allotment = num;
             }
         }
         return student;
