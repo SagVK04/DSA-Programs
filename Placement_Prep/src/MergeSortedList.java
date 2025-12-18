@@ -1,8 +1,8 @@
 public class MergeSortedList {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode dnode = new ListNode(-1);
-        ListNode temp = dnode;
-        ListNode t1 = list1; ListNode t2 = list2;
+    public ListNode_New mergeTwoLists(ListNode_New list1, ListNode_New list2) {
+        ListNode_New dnode = new ListNode_New(-1);
+        ListNode_New temp = dnode;
+        ListNode_New t1 = list1; ListNode_New t2 = list2;
         while(t1 != null && t2 != null){
             if(t1.val < t2.val){
                 temp.next = t1;
