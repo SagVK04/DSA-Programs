@@ -1,3 +1,4 @@
+/*
 public class RemoveListElements {
     public ListNode_New removeElements(ListNode_New head, int val) {
         if(head == null) return null;
@@ -15,3 +16,4 @@ public class RemoveListElements {
         return dnode.next;
     }
 }
+*/

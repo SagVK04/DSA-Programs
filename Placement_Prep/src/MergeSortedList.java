@@ -1,3 +1,4 @@
+/*
 public class MergeSortedList {
     public ListNode_New mergeTwoLists(ListNode_New list1, ListNode_New list2) {
         ListNode_New dnode = new ListNode_New(-1);
@@ -22,3 +23,4 @@ public class MergeSortedList {
         return dnode.next;
     }
 }
+*/

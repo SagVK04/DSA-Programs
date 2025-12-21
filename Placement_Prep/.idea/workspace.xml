@@ -20,6 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -37,6 +40,8 @@
     "Application.CV2.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q10.executor": "Run",
+    "Application.Q11.executor": "Run",
+    "Application.Q12.executor": "Run",
     "Application.Q2.executor": "Run",
     "Application.Q3.executor": "Run",
     "Application.Q4.executor": "Run",
@@ -45,12 +50,27 @@
     "Application.Q7.executor": "Run",
     "Application.Q8.executor": "Run",
     "Application.Q9.executor": "Run",
+    "Attach to process.pid 16320.executor": "ProcessAttachDebug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q11" />
+      <module name="Placement_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Q11" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
