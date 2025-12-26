@@ -13,7 +13,7 @@ public class SubSet2 {
             if(i>0 && arr[i] == arr [i-1])
                 start = end + 1;
             end = outer.size()-1;
-            for(int j=start; j<end; j++){
+            for(int j=start; j<=end; j++){
                 List<Integer> internal = new ArrayList<>(outer.get(j)); //Copy of the j-th list in the outer list
                 internal.add(arr[i]); outer.add(internal);
             }

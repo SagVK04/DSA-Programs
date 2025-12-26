@@ -38,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CV2.executor": "Run",
+    "Application.PhonePad.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q10.executor": "Run",
     "Application.Q11.executor": "Run",
@@ -57,7 +58,14 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PhonePad">
+    <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhonePad" />
+      <module name="Placement_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q11" />
       <module name="Placement_Prep" />
@@ -67,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhonePad" />
         <item itemvalue="Application.Q11" />
       </list>
     </recent_temporary>
