@@ -38,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CV2.executor": "Run",
+    "Application.NQueens.executor": "Run",
     "Application.PhonePad.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q10.executor": "Run",
@@ -58,7 +59,14 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PhonePad">
+  <component name="RunManager" selected="Application.NQueens">
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueens" />
+      <module name="Placement_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PhonePad" />
       <module name="Placement_Prep" />
@@ -75,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueens" />
         <item itemvalue="Application.PhonePad" />
         <item itemvalue="Application.Q11" />
       </list>
