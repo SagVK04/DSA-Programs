@@ -14,14 +14,14 @@ public class PhonePad {
             ans.add(pro);
             return ans;
         }
-        int digit = org.charAt(0) - '0';
+        int digit = org.charAt(0) - '0'; //Digit Character to Digit integer
         int start_index = (digit - 2)*3;
         if(digit > 7) start_index += 1;
         int len = start_index + 3;
         if(digit == 7 || digit == 9) len += 1;
         List<String> fin = new ArrayList<>();
         for(;start_index < len; start_index++){
-            char ch_add = (char)('a' + start_index);
+            char ch_add = (char)('a' + start_index); //Increase integer value with 26 and convert to character
             fin.addAll(pad2(pro+ch_add,org.substring(1)));
         }
         return fin;
