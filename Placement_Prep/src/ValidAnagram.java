@@ -25,8 +25,8 @@ public class ValidAnagram {
         if(s.length() != t.length()) return false;
         int[] count_array = new int[26];
         for(int i=0;i<s.length();i++){
-            count_array[s.charAt(i) - 'a'] += 1;
-            count_array[t.charAt(i) - 'a'] -= 1;
+            count_array[s.charAt(i) - 97] += 1;
+            count_array[t.charAt(i) - 97] -= 1;
         }
         for(int count: count_array){
             if(count != 0) return false;
