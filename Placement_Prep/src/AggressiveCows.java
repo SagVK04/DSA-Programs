@@ -11,18 +11,6 @@ public class AggressiveCows {
         }
         return ub_dist;
     }
-    public static int findMax(int[] stalls){
-        int max=Integer.MIN_VALUE;
-        for(int num: stalls)
-            max = Math.max(max,num);
-        return max;
-    }
-    public static int findMin(int[] stalls){
-        int min=Integer.MAX_VALUE;
-        for(int num: stalls)
-            min = Math.min(min,num);
-        return min;
-    }
     public static boolean findSafe(int[] stalls, int min_dist, int cows){
         int k=1; int last_place=stalls[0];
         for(int i=1;i<stalls.length;i++){

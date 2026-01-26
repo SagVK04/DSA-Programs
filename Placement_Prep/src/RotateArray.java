@@ -1,4 +1,4 @@
-public class ReverseArray {
+public class RotateArray {
     public void rotate(int[] nums, int k) {
         //1,2,3,4,5 k=3  ->  5,4,3,2,1 -> 3,4,5,1,2
         //Reverse the array
