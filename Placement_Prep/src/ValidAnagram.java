@@ -23,12 +23,12 @@ public class ValidAnagram {
     }
     public boolean isAnagramOpt(String s, String t) {
         if(s.length() != t.length()) return false;
-        int[] count_array = new int[26];
+        int[] ascii = new int[26];
         for(int i=0;i<s.length();i++){
-            count_array[s.charAt(i) - 97] += 1;
-            count_array[t.charAt(i) - 97] -= 1;
+            ascii[s.charAt(i) - 'a']++;
+            ascii[t.charAt(i) - 'a']--;
         }
-        for(int count: count_array){
+        for(int count: ascii){
             if(count != 0) return false;
         }
         return true;
