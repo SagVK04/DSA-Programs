@@ -1,11 +1,11 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Stack;
 
 public class NextGreaterElement {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] nge = new int[nums1.length]; Stack<Integer> st = new Stack<>();
-        for(int i=0; i<nge.length; i++)
-            nge[i] = -1;
+        Arrays.fill(nge, -1);
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i=0; i<nums1.length; i++)
             map.put(nums1[i],i);

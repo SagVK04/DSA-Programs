@@ -35,32 +35,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PhonePad.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q14.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q9.executor&quot;: &quot;Run&quot;,
-    &quot;Attach to process.pid 16320.executor&quot;: &quot;ProcessAttachDebug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CV2.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.PhonePad.executor": "Run",
+    "Application.Q1.executor": "Run",
+    "Application.Q10.executor": "Run",
+    "Application.Q11.executor": "Run",
+    "Application.Q12.executor": "Run",
+    "Application.Q14.executor": "Run",
+    "Application.Q15.executor": "Run",
+    "Application.Q2.executor": "Run",
+    "Application.Q3.executor": "Run",
+    "Application.Q4.executor": "Run",
+    "Application.Q5.executor": "Run",
+    "Application.Q6.executor": "Run",
+    "Application.Q7.executor": "Run",
+    "Application.Q8.executor": "Run",
+    "Application.Q9.executor": "Run",
+    "Attach to process.pid 16320.executor": "ProcessAttachDebug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "java.suggest.annotation.dependency": "false",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.NQueens">
     <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NQueens" />
