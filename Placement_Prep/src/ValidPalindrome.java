@@ -14,7 +14,7 @@ public class ValidPalindrome {
     }
     public char lowerCase(char c){
         if(c >= 'A' && c <= 'Z')
-            return (char)(c-65+97);
+            return (char)(c+32);
             //return (char)(c-'A'+'a');
         else return c;
     }

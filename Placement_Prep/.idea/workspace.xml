@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BinarySubarrayWithSum.executor": "Run",
     "Application.CV2.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.PhonePad.executor": "Run",
@@ -46,6 +47,10 @@
     "Application.Q12.executor": "Run",
     "Application.Q14.executor": "Run",
     "Application.Q15.executor": "Run",
+    "Application.Q16.executor": "Run",
+    "Application.Q17.executor": "Run",
+    "Application.Q18.executor": "Run",
+    "Application.Q19.executor": "Run",
     "Application.Q2.executor": "Run",
     "Application.Q3.executor": "Run",
     "Application.Q4.executor": "Run",
@@ -54,6 +59,7 @@
     "Application.Q7.executor": "Run",
     "Application.Q8.executor": "Run",
     "Application.Q9.executor": "Run",
+    "Application.StringToIntegeratoi.executor": "Run",
     "Attach to process.pid 16320.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -66,23 +72,37 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NQueens">
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NQueens" />
+  <component name="RunManager" selected="Application.Q19">
+    <configuration name="BinarySubarrayWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySubarrayWithSum" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhonePad" />
+    <configuration name="Q17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q17" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q11" />
+    <configuration name="Q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q18" />
+      <module name="Placement_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q19" />
+      <module name="Placement_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToIntegeratoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringToIntegeratoi" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,9 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.PhonePad" />
-        <item itemvalue="Application.Q11" />
+        <item itemvalue="Application.Q19" />
+        <item itemvalue="Application.BinarySubarrayWithSum" />
+        <item itemvalue="Application.StringToIntegeratoi" />
+        <item itemvalue="Application.Q18" />
+        <item itemvalue="Application.Q17" />
       </list>
     </recent_temporary>
   </component>
