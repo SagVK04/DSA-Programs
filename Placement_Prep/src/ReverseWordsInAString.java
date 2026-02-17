@@ -1,5 +1,14 @@
+import java.util.Scanner;
+
 public class ReverseWordsInAString {
-    public String reverseWords(String s) {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("s= ");
+        String input = sc.nextLine().trim();
+        System.out.println("Output= "+reverseWords(input));
+    }
+
+    public static String reverseWords(String s) {
         if(s.length() == 1) return s;
         int i=s.length()-1;
         StringBuilder result = new StringBuilder();

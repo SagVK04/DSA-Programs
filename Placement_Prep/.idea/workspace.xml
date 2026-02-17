@@ -39,6 +39,8 @@
   "keyToString": {
     "Application.BinarySubarrayWithSum.executor": "Run",
     "Application.CV2.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestRepeatingCharacterReplace.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.PhonePad.executor": "Run",
     "Application.Q1.executor": "Run",
@@ -59,6 +61,7 @@
     "Application.Q7.executor": "Run",
     "Application.Q8.executor": "Run",
     "Application.Q9.executor": "Run",
+    "Application.ReverseWordsInAString.executor": "Run",
     "Application.StringToIntegeratoi.executor": "Run",
     "Attach to process.pid 16320.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
@@ -72,7 +75,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q19">
+  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplace">
     <configuration name="BinarySubarrayWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySubarrayWithSum" />
       <module name="Placement_Prep" />
@@ -80,15 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q17" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCommonPrefix" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q18" />
+    <configuration name="LongestRepeatingCharacterReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestRepeatingCharacterReplace" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToIntegeratoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringToIntegeratoi" />
+    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseWordsInAString" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestRepeatingCharacterReplace" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.ReverseWordsInAString" />
         <item itemvalue="Application.Q19" />
         <item itemvalue="Application.BinarySubarrayWithSum" />
-        <item itemvalue="Application.StringToIntegeratoi" />
-        <item itemvalue="Application.Q18" />
-        <item itemvalue="Application.Q17" />
       </list>
     </recent_temporary>
   </component>
