@@ -39,9 +39,14 @@
   "keyToString": {
     "Application.BinarySubarrayWithSum.executor": "Run",
     "Application.CV2.executor": "Run",
+    "Application.CountAndSay.executor": "Run",
+    "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.InterSectionofArray.executor": "Run",
+    "Application.LRUCache.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestRepeatingCharacterReplace.executor": "Run",
     "Application.NQueens.executor": "Run",
+    "Application.PermutationInString.executor": "Run",
     "Application.PhonePad.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q10.executor": "Run",
@@ -75,37 +80,37 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplace">
-    <configuration name="BinarySubarrayWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySubarrayWithSum" />
+  <component name="RunManager" selected="Application.PermutationInString">
+    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountAndSay" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestCommonPrefix" />
+    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstUniqueCharacter" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestRepeatingCharacterReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestRepeatingCharacterReplace" />
+    <configuration name="InterSectionofArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterSectionofArray" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q19" />
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseWordsInAString" />
+    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PermutationInString" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestRepeatingCharacterReplace" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.ReverseWordsInAString" />
-        <item itemvalue="Application.Q19" />
-        <item itemvalue="Application.BinarySubarrayWithSum" />
+        <item itemvalue="Application.PermutationInString" />
+        <item itemvalue="Application.FirstUniqueCharacter" />
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.InterSectionofArray" />
+        <item itemvalue="Application.CountAndSay" />
       </list>
     </recent_temporary>
   </component>

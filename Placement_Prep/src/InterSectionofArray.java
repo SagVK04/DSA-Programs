@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Scanner;
+
 /*
 1. Determine shorter array and count frequency of each
 2. Find each element in longer array, if found add in arraylist(Arraylist contains only common elements)
@@ -8,6 +11,28 @@ import java.util.HashMap;
 4. Copy all list elements to res array
 */
 public class InterSectionofArray {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("nums1 = ");
+        String input_1 = sc.nextLine().trim();
+        input_1 = input_1.replaceAll("\\[|\\]","");
+        String[] ip1 = input_1.split(",");
+        int[] arr1 = new int[ip1.length];
+        for(int i=0;i<arr1.length;i++)
+            arr1[i] = Integer.parseInt(ip1[i]);
+
+        System.out.println("nums2 = ");
+        String input_2 = sc.nextLine().trim();
+        input_2 = input_2.replaceAll("\\[|\\]","");
+        String[] ip2 = input_2.split(",");
+        int[] arr2 = new int[ip2.length];
+        for(int i=0;i<arr2.length;i++)
+            arr2[i] = Integer.parseInt(ip2[i]);
+
+        System.out.println("Output = ");
+        System.out.println(Arrays.toString(intersect2(arr1,arr2)));
+    }
     public int[] intersect1(int[] nums1, int[] nums2) {
         //nums1 < nums2
         if(nums1.length > nums2.length)
@@ -31,13 +56,13 @@ public class InterSectionofArray {
             res[i] = list.get(i);
         return res;
     }
-    public int[] intersect2(int[] nums1, int[] nums2) {
+    public static int[] intersect2(int[] nums1, int[] nums2) {
         //nums1 < nums2
         if(nums1.length > nums2.length)
             return intersect2(nums2,nums1);
         int[] map = new int[1001];
         for(int num: nums1){
-            map[num]++;
+            if(map[num] == 0) map[num]++;
         }
         ArrayList<Integer> list = new ArrayList<>();
         for(int num: nums2){
