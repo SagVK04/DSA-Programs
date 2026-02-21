@@ -5,7 +5,8 @@ public class P2{
         Scanner sc = new Scanner(System.in);
         String original = sc.nextLine().trim();
         int key = Integer.parseInt(sc.nextLine().trim());
-        System.out.println(returnCipher(original,key));
+        if(key <= 0) System.out.println("INVALID INPUT");
+        else System.out.println(returnCipher(original,key));
     }
     public static String returnCipher(String org, int key){
         StringBuilder sb = new StringBuilder();

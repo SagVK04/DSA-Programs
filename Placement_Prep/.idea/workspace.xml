@@ -70,6 +70,7 @@
     "Application.Q9.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Run",
     "Application.StringToIntegeratoi.executor": "Run",
+    "Application.ThreeSum.executor": "Run",
     "Attach to process.pid 16320.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -82,16 +83,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P2">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstUniqueCharacter" />
-      <module name="Placement_Prep" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,13 +124,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+      <module name="Placement_Prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.P2" />
         <item itemvalue="Application.P1" />
         <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.FirstUniqueCharacter" />
-        <item itemvalue="Application.LRUCache" />
       </list>
     </recent_temporary>
   </component>
