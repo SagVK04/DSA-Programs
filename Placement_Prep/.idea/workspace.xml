@@ -45,6 +45,7 @@
     "Application.LRUCache.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestRepeatingCharacterReplace.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.P1.executor": "Run",
     "Application.P2.executor": "Run",
@@ -83,9 +84,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreeSum">
-    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstUniqueCharacter" />
+  <component name="RunManager" selected="Application.MergeSortedArray">
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.P2" />
         <item itemvalue="Application.P1" />
         <item itemvalue="Application.PermutationInString" />
-        <item itemvalue="Application.FirstUniqueCharacter" />
       </list>
     </recent_temporary>
   </component>
