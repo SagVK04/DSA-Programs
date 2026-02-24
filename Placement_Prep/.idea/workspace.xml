@@ -44,11 +44,14 @@
     "Application.InterSectionofArray.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestRepeatingCharacterReplace.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.P1.executor": "Run",
     "Application.P2.executor": "Run",
+    "Application.P5.executor": "Run",
+    "Application.P8.executor": "Run",
     "Application.PermutationInString.executor": "Run",
     "Application.PhonePad.executor": "Run",
     "Application.Q1.executor": "Run",
@@ -70,8 +73,12 @@
     "Application.Q8.executor": "Run",
     "Application.Q9.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Solution1.executor": "Run",
+    "Application.Solution7.executor": "Run",
     "Application.StringToIntegeratoi.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.solution.executor": "Run",
     "Attach to process.pid 16320.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -84,16 +91,16 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
+  <component name="RunManager" selected="Application.P8">
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequence" />
       <module name="Placement_Prep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P1" />
+    <configuration name="P8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P8" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.Solution" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -118,27 +125,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PermutationInString" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.Solution1" />
       <module name="Placement_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCS_NQT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+    <configuration name="Solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.Solution7" />
       <module name="Placement_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCS_NQT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.P2" />
-        <item itemvalue="Application.P1" />
-        <item itemvalue="Application.PermutationInString" />
+        <item itemvalue="Application.P8" />
+        <item itemvalue="Application.Solution7" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
       </list>
     </recent_temporary>
   </component>
