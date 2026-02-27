@@ -49,9 +49,12 @@
     "Application.MergeSortedArray.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.P1.executor": "Run",
+    "Application.P12.executor": "Run",
+    "Application.P13.executor": "Run",
     "Application.P2.executor": "Run",
     "Application.P5.executor": "Run",
     "Application.P8.executor": "Run",
+    "Application.P9.executor": "Run",
     "Application.PermutationInString.executor": "Run",
     "Application.PhonePad.executor": "Run",
     "Application.Q1.executor": "Run",
@@ -91,10 +94,29 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P8">
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequence" />
+  <component name="RunManager" selected="Application.P12">
+    <configuration name="P12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P12" />
       <module name="Placement_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCS_NQT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P13" />
+      <module name="Placement_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCS_NQT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,21 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.Solution" />
-      <module name="Placement_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCS_NQT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.Solution1" />
+    <configuration name="P9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P9" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P12" />
+        <item itemvalue="Application.P13" />
+        <item itemvalue="Application.P9" />
         <item itemvalue="Application.P8" />
         <item itemvalue="Application.Solution7" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
       </list>
     </recent_temporary>
   </component>
