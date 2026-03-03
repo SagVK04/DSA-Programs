@@ -51,7 +51,11 @@
     "Application.P1.executor": "Run",
     "Application.P12.executor": "Run",
     "Application.P13.executor": "Run",
+    "Application.P15.executor": "Run",
+    "Application.P16.executor": "Run",
+    "Application.P17.executor": "Run",
     "Application.P2.executor": "Run",
+    "Application.P4.executor": "Run",
     "Application.P5.executor": "Run",
     "Application.P8.executor": "Run",
     "Application.P9.executor": "Run",
@@ -94,7 +98,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P12">
+  <component name="RunManager" selected="Application.P17">
     <configuration name="P12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TCS_NQT.P12" />
       <module name="Placement_Prep" />
@@ -108,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P13" />
+    <configuration name="P15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P15" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P8" />
+    <configuration name="P16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P16" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P9" />
+    <configuration name="P17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P17" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.Solution7" />
+    <configuration name="P4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P4" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P17" />
+        <item itemvalue="Application.P16" />
+        <item itemvalue="Application.P15" />
+        <item itemvalue="Application.P4" />
         <item itemvalue="Application.P12" />
-        <item itemvalue="Application.P13" />
-        <item itemvalue="Application.P9" />
-        <item itemvalue="Application.P8" />
-        <item itemvalue="Application.Solution7" />
       </list>
     </recent_temporary>
   </component>

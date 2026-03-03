@@ -10,15 +10,13 @@ public class P4 {
         System.out.println(findMaxCurtain(input,l));
     }
     public static int findMaxCurtain(String s, int l){
-        int max=0;
-        for(int i=0;i<s.length();i+=l){
-            if(s.length()-i < l) break;
-            int cur=0;
-            for(int j=i;j<i+l;j++){
-                if(s.charAt(j)=='a'){
-                    cur += 1; max = Math.max(max,cur);
-                }
-            }
+        int max=0; int cur=0;
+        for(int i=0;i<l;i++) cur++;
+        max = Math.max(max,cur);
+        for(int i=l;i<s.length();i++){
+            if(s.charAt(i) == 'a') cur += 1;
+            if(s.charAt(i-l) == 'a') cur -= 1;
+            max = Math.max(max,cur);
         }
         return max;
     }
