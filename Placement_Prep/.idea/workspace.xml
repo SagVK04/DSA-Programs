@@ -40,6 +40,7 @@
     "Application.BinarySubarrayWithSum.executor": "Run",
     "Application.CV2.executor": "Run",
     "Application.CountAndSay.executor": "Run",
+    "Application.DailyTemparature.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
     "Application.InterSectionofArray.executor": "Run",
     "Application.LRUCache.executor": "Run",
@@ -54,7 +55,14 @@
     "Application.P15.executor": "Run",
     "Application.P16.executor": "Run",
     "Application.P17.executor": "Run",
+    "Application.P18.executor": "Run",
+    "Application.P19.executor": "Run",
     "Application.P2.executor": "Run",
+    "Application.P20.executor": "Run",
+    "Application.P21.executor": "Run",
+    "Application.P22.executor": "Run",
+    "Application.P23.executor": "Run",
+    "Application.P24.executor": "Run",
     "Application.P4.executor": "Run",
     "Application.P5.executor": "Run",
     "Application.P8.executor": "Run",
@@ -80,6 +88,7 @@
     "Application.Q8.executor": "Run",
     "Application.Q9.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Run",
+    "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Solution1.executor": "Run",
     "Application.Solution7.executor": "Run",
@@ -98,9 +107,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P17">
-    <configuration name="P12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P12" />
+  <component name="RunManager" selected="Application.P24">
+    <configuration name="P21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P21" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P15" />
+    <configuration name="P22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P22" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P16" />
+    <configuration name="P23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P23" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P17" />
+    <configuration name="P24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P24" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -151,26 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P4" />
+    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SieveOfEratosthenes" />
       <module name="Placement_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCS_NQT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P17" />
-        <item itemvalue="Application.P16" />
-        <item itemvalue="Application.P15" />
-        <item itemvalue="Application.P4" />
-        <item itemvalue="Application.P12" />
+        <item itemvalue="Application.P24" />
+        <item itemvalue="Application.P23" />
+        <item itemvalue="Application.P22" />
+        <item itemvalue="Application.SieveOfEratosthenes" />
+        <item itemvalue="Application.P21" />
       </list>
     </recent_temporary>
   </component>
