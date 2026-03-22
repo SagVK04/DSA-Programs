@@ -63,6 +63,12 @@
     "Application.P22.executor": "Run",
     "Application.P23.executor": "Run",
     "Application.P24.executor": "Run",
+    "Application.P25.executor": "Run",
+    "Application.P26.executor": "Run",
+    "Application.P27.executor": "Run",
+    "Application.P28.executor": "Run",
+    "Application.P29.executor": "Run",
+    "Application.P31.executor": "Run",
     "Application.P4.executor": "Run",
     "Application.P5.executor": "Run",
     "Application.P8.executor": "Run",
@@ -107,9 +113,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P24">
-    <configuration name="P21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P21" />
+  <component name="RunManager" selected="Application.P31">
+    <configuration name="P26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P26" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P22" />
+    <configuration name="P27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P27" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P23" />
+    <configuration name="P28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P28" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P24" />
+    <configuration name="P29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P29" />
       <module name="Placement_Prep" />
       <extension name="coverage">
         <pattern>
@@ -160,20 +166,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SieveOfEratosthenes" />
+    <configuration name="P31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P31" />
       <module name="Placement_Prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCS_NQT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P24" />
-        <item itemvalue="Application.P23" />
-        <item itemvalue="Application.P22" />
-        <item itemvalue="Application.SieveOfEratosthenes" />
-        <item itemvalue="Application.P21" />
+        <item itemvalue="Application.P31" />
+        <item itemvalue="Application.P29" />
+        <item itemvalue="Application.P28" />
+        <item itemvalue="Application.P27" />
+        <item itemvalue="Application.P26" />
       </list>
     </recent_temporary>
   </component>
