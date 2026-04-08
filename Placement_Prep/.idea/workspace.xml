@@ -42,11 +42,13 @@
     "Application.CountAndSay.executor": "Run",
     "Application.DailyTemparature.executor": "Run",
     "Application.FirstUniqueCharacter.executor": "Run",
+    "Application.FrogJump.executor": "Run",
     "Application.InterSectionofArray.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestRepeatingCharacterReplace.executor": "Run",
+    "Application.MaxSumNonAdjacent.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.P1.executor": "Run",
@@ -113,29 +115,17 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.P31">
-    <configuration name="P26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P26" />
+  <component name="RunManager" selected="Application.MaxSumNonAdjacent">
+    <configuration name="FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrogJump" />
       <module name="Placement_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCS_NQT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCS_NQT.P27" />
+    <configuration name="MaxSumNonAdjacent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSumNonAdjacent" />
       <module name="Placement_Prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCS_NQT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSumNonAdjacent" />
+        <item itemvalue="Application.FrogJump" />
         <item itemvalue="Application.P31" />
         <item itemvalue="Application.P29" />
         <item itemvalue="Application.P28" />
-        <item itemvalue="Application.P27" />
-        <item itemvalue="Application.P26" />
       </list>
     </recent_temporary>
   </component>
